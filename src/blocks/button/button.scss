@@ -1,0 +1,37 @@
+.button {
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  border: none;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+  }
+}
+.button--theme-transpent {
+  padding: 12px 28px;
+  background: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+
+  &:hover {
+    background: #ffffff;
+    color: #ed4c5c;
+  }
+}
+.button--theme-white {
+  padding: 17px 53px;
+  background: #ffffff;
+  color: #ed4c5c;
+  border: 1px solid transparent;
+
+  &:hover {
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+  }
+}

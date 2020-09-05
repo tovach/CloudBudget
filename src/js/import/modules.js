@@ -1,1 +1,1 @@
-// import "../../blocks/popular-products/popular-products";
+import "../../blocks/nav-bar/nav-bar";

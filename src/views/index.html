@@ -29,7 +29,18 @@
     <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
-    <header class="header"></header>
+    <header class="header">@@include('../blocks/nav-bar/nav-bar.html',{'class': 'header__nav-bar container'})</header>
+    <section class="cloudbudget">
+      <div class="cloudbudget__wrapper container">
+        <h3 class="cloudbudget__title">CloudBudget</h3>
+        <p class="cloudbudget__description">
+          Cloud budget management for everyone. Only <br />€69.95 a Month After a 7 Day Trial of <br />
+          Up to €4.99
+        </p>
+        <button class="cloudbudget__sign-up button button--theme-white" type="button">sign up</button>
+      </div>
+    </section>
+
     <script src="js/main.js"></script>
     <script src="js/vendor.js"></script>
   </body>
