@@ -5,6 +5,11 @@ html {
 body {
   margin: 0;
   padding: 0;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 *,
@@ -50,7 +55,90 @@ h6 {
 }
 
 .container {
-  max-width: 1440px;
+  width: 100%;
+  max-width: 1130px;
   margin: 0 auto;
-  padding: 0 165px;
+  padding: 0 10px;
 }
+
+//!Header start
+.header {
+  position: fixed;
+  z-index: 50;
+  min-height: 100px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: rgba(#eee, 0.3);
+
+  &__nav-bar {
+  }
+}
+//!Header end
+
+//! First section start
+.cloudbudget {
+  position: relative;
+
+  padding-top: 17px;
+  padding-bottom: 187px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  position: relative;
+  min-height: 100vh;
+  background: url("../img/header/header__hero-img.jpg") no-repeat center center;
+  background-size: cover;
+  z-index: 1;
+
+  &::after {
+    content: "";
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background: linear-gradient(to right, #d52047, #ee3d1b);
+    opacity: 0.8;
+    z-index: -1;
+  }
+
+  &__wrapper {
+    max-width: 578px;
+    align-self: center;
+    text-align: center;
+  }
+
+  &__title {
+    margin-bottom: 40px;
+    font-weight: 400;
+    // font-size: 72px;
+    font-size: calc(32px + 40 * ((100vw - 320px) / (1440 - 320)));
+    line-height: 86px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  &__description {
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  &__sign-up {
+  }
+}
+
+//! First section end

@@ -1,0 +1,108 @@
+//!Clodbudget section start
+.cloudbudget {
+  @media (max-width: 320px) {
+    padding-bottom: 30px;
+  }
+}
+//!Clodbudget section end
+
+//!Nav-bar start
+
+.nav-bar {
+  &__logo {
+  }
+
+  &__site-nav {
+  }
+
+  &__user-nav {
+  }
+}
+
+//!Logo
+.logo {
+  &__img {
+  }
+
+  &__text {
+    @media (max-width: 860px) {
+      display: none;
+    }
+  }
+
+  &__link {
+  }
+}
+
+//!Site-nav
+.site-nav {
+  &__list {
+    @media (max-width: 768px) {
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      left: -100%;
+
+      background-color: #000;
+      flex-direction: column;
+    }
+  }
+
+  &__item {
+    @media (max-width: 768px) {
+      margin-top: 30px;
+      margin-left: 30px;
+      margin-right: 0;
+      margin-bottom: 30px;
+      font-size: 25px;
+    }
+  }
+
+  &__link {
+    @media (max-width: 768px) {
+      &::after {
+        content: none;
+      }
+    }
+  }
+
+  &__burger {
+    @media (max-width: 768px) {
+      display: flex;
+    }
+  }
+
+  &__burger span {
+  }
+}
+
+//!User-nav
+.user-nav {
+  @media (max-width: 768px) {
+    width: 170px;
+  }
+  &__site-lang {
+  }
+
+  &__login {
+  }
+}
+
+//!Site-lang
+.site-lang {
+  @media (max-width: 768px) {
+    width: 50px;
+  }
+  &__current-lang-icon {
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  &__current-lang {
+  }
+
+  &__chose-lang {
+  }
+}
+// !Nav-bar end
