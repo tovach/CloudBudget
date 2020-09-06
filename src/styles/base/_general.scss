@@ -10,6 +10,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
+  color: #000000;
 }
 
 *,
@@ -72,14 +73,26 @@ h6 {
   flex-direction: column;
   justify-content: center;
 
-  background-color: rgba(#eee, 0.3);
-
   &__nav-bar {
   }
 }
+
+.header--active {
+  transition: all 0.5s ease-in-out;
+  background-color: rgba(#ed4c5c, 0.8);
+}
 //!Header end
 
-//! First section start
+//! Main start
+.main {
+  &__cloudbudget {
+  }
+  &__software {
+  }
+}
+//! Main end
+
+//! Cloudbudget section start
 .cloudbudget {
   position: relative;
 
@@ -140,5 +153,63 @@ h6 {
   &__sign-up {
   }
 }
+//! Cloudbudget section end
 
-//! First section end
+//!Software section start
+
+.software {
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__article {
+    max-width: 445px;
+  }
+
+  &__video {
+    max-width: 445px;
+    margin-right: 95px;
+  }
+}
+.artice-software {
+  &__title {
+    font-weight: 600;
+    font-size: calc(32px + 4 * ((100vw - 320px) / (1440 - 320)));
+    line-height: 43px;
+    margin-bottom: 45px;
+  }
+
+  &__text {
+    margin-bottom: 19px;
+    text-align: justify;
+  }
+
+  &__learn-more {
+    color: #ed4c5c;
+  }
+}
+
+.video-software {
+  position: relative;
+
+  &__img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+
+  &__play-button {
+    position: absolute;
+
+    top: calc(50% - 17px);
+    left: -33px;
+
+    display: flex;
+    border: none;
+    background: transparent;
+
+    cursor: pointer;
+  }
+}
+
+//!Software section end

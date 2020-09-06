@@ -30,16 +30,42 @@
   </head>
   <body>
     <header class="header">@@include('../blocks/nav-bar/nav-bar.html',{'class': 'header__nav-bar container'})</header>
-    <section class="cloudbudget">
-      <div class="cloudbudget__wrapper container">
-        <h3 class="cloudbudget__title">CloudBudget</h3>
-        <p class="cloudbudget__description">
-          Cloud budget management for everyone. Only <br />€69.95 a Month After a 7 Day Trial of <br />
-          Up to €4.99
-        </p>
-        <button class="cloudbudget__sign-up button button--theme-white" type="button">sign up</button>
-      </div>
-    </section>
+    <main class="main">
+      <section class="main__cloudbudget cloudbudget">
+        <div class="cloudbudget__wrapper container">
+          <h3 class="cloudbudget__title">CloudBudget</h3>
+          <p class="cloudbudget__description">
+            Cloud budget management for everyone. Only <br />€69.95 a Month After a 7 Day Trial of <br />
+            Up to €4.99
+          </p>
+          <button class="cloudbudget__sign-up button button--theme-white" type="button">sign up</button>
+        </div>
+      </section>
+      <section class="main__software software container">
+        <div class="software__article artice-software">
+          <h3 class="artice-software__title">Easy to Use Cloud Budget Management Software</h3>
+          <p class="artice-software__text">
+            Our software is made so you can access and manage your budget and expenses online at any time from any
+            device. It provides detailed income and expense reports with graphs so you can easilly see your spending
+            patterns and budget at a glance. Read below to find out more.
+          </p>
+          <a class="artice-software__learn-more" href="#">Learn more</a>
+        </div>
+        <div class="software__video video-software">
+          <img
+            class="video-software__img"
+            src="img/software/preview-img.jpg"
+            alt="Easy to Use Cloud Budget Management Software"
+          />
+          <button class="video-software__play-button" type="button">
+            <svg width="66" height="66" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="33" cy="33" r="33" fill="#ED4C5C" />
+              <path d="M39.75 33L28.5 40.875V25.125L39.75 33Z" fill="white" />
+            </svg>
+          </button>
+        </div>
+      </section>
+    </main>
 
     <script src="js/main.js"></script>
     <script src="js/vendor.js"></script>

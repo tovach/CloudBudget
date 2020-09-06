@@ -1,10 +1,10 @@
-//!Clodbudget section start
-.cloudbudget {
-  @media (max-width: 320px) {
-    padding-bottom: 30px;
+// !Header start
+.header {
+  @media (max-width: 768px) {
+    min-height: 50px;
   }
 }
-//!Clodbudget section end
+// !Header end
 
 //!Nav-bar start
 
@@ -106,3 +106,52 @@
   }
 }
 // !Nav-bar end
+
+//!Clodbudget section start
+.cloudbudget {
+  @media (max-width: 320px) {
+    padding-bottom: 30px;
+  }
+}
+//!Clodbudget section end
+
+//! Software section start
+.software {
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+  &__article {
+    @media (max-width: 768px) {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  }
+
+  &__video {
+    @media (max-width: 768px) {
+      margin-right: 0;
+    }
+  }
+}
+.artice-software {
+  &__title {
+  }
+
+  &__text {
+  }
+
+  &__learn-more {
+  }
+}
+
+.video-software {
+  &__img {
+  }
+
+  &__play-button {
+    @media (max-width: 768px) {
+      left: calc(50% - 33px);
+    }
+  }
+}
+//! Software section end
