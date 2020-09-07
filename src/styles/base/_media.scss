@@ -155,3 +155,40 @@
   }
 }
 //! Software section end
+
+//! Features section start
+
+.features {
+  &__title {
+  }
+
+  &__cards {
+    @media (max-width: 768px) {
+    }
+  }
+}
+.cards {
+  &__item {
+  }
+}
+.card {
+  &__img {
+  }
+  &__img img {
+  }
+
+  &__body {
+  }
+}
+.body-card {
+  &__wrapper {
+  }
+  &__title {
+  }
+
+  &__text {
+  }
+
+  &__read-more {
+  }
+}

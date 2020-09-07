@@ -89,6 +89,8 @@ h6 {
   }
   &__software {
   }
+  &__features {
+  }
 }
 //! Main end
 
@@ -158,7 +160,7 @@ h6 {
 //!Software section start
 
 .software {
-  height: 500px;
+  min-height: 500px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -213,3 +215,95 @@ h6 {
 }
 
 //!Software section end
+
+//! Features section start
+
+.features {
+  padding-top: 63px;
+  min-height: 660px;
+  background: #fafafa;
+
+  &__title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 63px;
+  }
+
+  &__cards {
+  }
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(auto, 350px));
+  justify-content: center;
+  gap: 30px;
+  &__item {
+  }
+}
+.card {
+  max-width: 350px;
+  &__img {
+    position: relative;
+    z-index: 1;
+
+    max-width: 350px;
+    max-height: 250px;
+  }
+  &__img img {
+    border-radius: 8px;
+
+    height: auto;
+    max-width: 100%;
+  }
+
+  &__body {
+    position: relative;
+    z-index: 2;
+
+    margin-top: -30%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+.body-card {
+  max-width: 293px;
+
+  padding: 33px 20px 25px 20px;
+
+  background: #ffffff;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 140px;
+
+    max-width: 253px;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+  }
+
+  &__text {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+  }
+
+  &__read-more {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ed4c5c;
+  }
+}
+
+//! Features section end
