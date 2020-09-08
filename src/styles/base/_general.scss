@@ -91,6 +91,8 @@ h6 {
   }
   &__features {
   }
+  &__technology {
+  }
 }
 //! Main end
 
@@ -307,3 +309,70 @@ h6 {
 }
 
 //! Features section end
+
+//! Technology section start
+.technology {
+  padding-top: 63px;
+  min-height: 500px;
+
+  &__title {
+    margin-bottom: 64px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(auto, 255px));
+    gap: 30px;
+    justify-content: center;
+  }
+
+  &__item {
+  }
+}
+.item-techology {
+  max-width: 255px;
+  min-height: 226px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  &__graphics {
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+  }
+
+  &__text {
+    max-width: 191px;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+  }
+}
+.techology-graphics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__number {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 120px;
+    color: rgba(16, 16, 16, 0.08);
+  }
+
+  &__img {
+    margin-top: -60px;
+  }
+}
+//! Technology section end
