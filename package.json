@@ -55,6 +55,7 @@
     "imagemin-webp": "^5.0.0",
     "imagemin-zopfli": "^6.0.0",
     "require-dir": "^1.2.0",
+    "swiper": "^6.2.0",
     "webpack": "^4.30.0",
     "webpack-stream": "^5.2.1",
     "yargs": "^13.2.4"
