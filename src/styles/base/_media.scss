@@ -223,3 +223,80 @@
   }
 }
 //! Technology section end
+
+//! Money-save section start
+
+.money-save {
+  &__wrapper {
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+  &__text-side {
+    @media (max-width: 768px) {
+      margin: 50px 0;
+    }
+  }
+
+  &__tite {
+  }
+
+  &__text {
+  }
+
+  &__app-markets {
+  }
+
+  &__slider-side {
+  }
+}
+
+.app-markets {
+  &__list {
+  }
+
+  &__item {
+  }
+
+  &__link {
+  }
+}
+
+.swiper-container {
+  @media (max-width: 553px) {
+    max-width: 425px;
+  }
+}
+
+.swiper-slide img {
+  @media (max-width: 553px) {
+    max-width: 325px;
+  }
+}
+
+.swiper-slide-next {
+  @media (max-width: 553px) {
+    transform: translate3d(-565px, 0px, -200px) rotateX(0deg) rotateY(0) scale(1) !important;
+  }
+}
+.swiper-slide-prev {
+  @media (max-width: 553px) {
+    transform: translate3d(565px, 0px, -200px) rotateX(0deg) rotateY(0) scale(1) !important;
+  }
+}
+
+.swiper-container {
+  @media (max-width: 375px) {
+    max-width: 320px;
+  }
+}
+
+.swiper-slide img {
+  @media (max-width: 375px) {
+    max-width: 215px;
+  }
+}
+
+//! Money-save section end
