@@ -338,3 +338,78 @@
 }
 
 //! Contact section start
+
+// !Footer start
+.footer {
+  &__wrapper {
+    @media (max-width: 475px) {
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+
+  &__adress {
+  }
+
+  &__nav {
+  }
+
+  &__contact-info {
+  }
+
+  &__payments {
+  }
+
+  &__copyright {
+  }
+}
+
+.adress {
+  &__title {
+  }
+
+  &__text {
+  }
+}
+.nav-footer {
+  &__title {
+  }
+
+  &__list {
+  }
+
+  &__item {
+  }
+
+  &__link {
+  }
+}
+.contact-info {
+  &__title {
+  }
+
+  &__email {
+  }
+
+  &__telephone {
+  }
+
+  &__socials {
+  }
+}
+.socials {
+  &__item {
+  }
+
+  &__link {
+  }
+}
+.payments {
+  &__title {
+  }
+
+  &__img {
+  }
+}
+
+// !Footer end
