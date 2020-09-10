@@ -222,6 +222,33 @@
           </div>
         </div>
       </section>
+      <section class="main__contact contact">
+        <div class="contact__wrapper container">
+          <div class="contact__text-side">
+            <h3 class="contact__title">Contact</h3>
+            <p class="contact__text">
+              Questions or concerns? Just fill out the form below and our support team will get back to you within 24
+              hours
+            </p>
+          </div>
+          <div class="contact__form-side">
+            <form class="contact-form" action="http://httpbin.org/post" method="post">
+              <div class="contact-form__wrapper">
+                <input class="contact-form__first-name" type="text" placeholder="First name" />
+                <input class="contact-form__last-name" type="text" placeholder="Last name" />
+              </div>
+              <input class="contact-form__phone-number" type="text" placeholder="Phone number" />
+              <select class="contact-form__select-service" name="" id="">
+                <option disabled selected>Select service</option>
+                <option value="value1">Value 1</option>
+                <option value="value2">Value 2</option>
+                <option value="value3">Value 3</option>
+              </select>
+              <button class="contact-form__button button button--theme-red" type="submit">Submit now</button>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
 
     <script src="js/main.js"></script>

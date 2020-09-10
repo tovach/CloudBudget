@@ -95,6 +95,8 @@ h6 {
   }
   &__save-money {
   }
+  &__contact {
+  }
 }
 //! Main end
 
@@ -468,3 +470,94 @@ h6 {
 }
 
 //! Money-save section end
+
+//! Contact section end
+
+.contact {
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  &__wrapper {
+    display: flex;
+
+    justify-content: space-between;
+  }
+  &__text-side {
+    max-width: 434px;
+    margin-right: 30px;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+  }
+
+  &__text {
+    text-align: justify;
+  }
+
+  &__form-side {
+    max-width: 540px;
+  }
+}
+
+.contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+
+  & input {
+    padding: 15px 30px;
+
+    font: inherit;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: rgba(19, 39, 67, 0.5);
+
+    border-radius: 6px;
+    border: 1px solid;
+  }
+
+  &__first-name {
+    width: 49%;
+  }
+
+  &__last-name {
+    width: 49%;
+  }
+
+  &__phone-number {
+    margin-bottom: 25px;
+  }
+
+  &__select-service {
+    padding: 15px 30px;
+    margin-bottom: 27px;
+
+    background: transparent;
+
+    font: inherit;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: rgba(19, 39, 67, 0.5);
+
+    border-radius: 6px;
+    border: 1px solid;
+  }
+
+  &__button {
+    max-width: 160px;
+  }
+}
+
+//! Contact section start

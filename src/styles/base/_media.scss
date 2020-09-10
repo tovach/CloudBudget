@@ -235,9 +235,6 @@
   }
 
   &__text-side {
-    @media (max-width: 768px) {
-      margin: 50px 0;
-    }
   }
 
   &__tite {
@@ -300,3 +297,44 @@
 }
 
 //! Money-save section end
+
+//! Contact section end
+
+.contact {
+  &__wrapper {
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  &__text-side {
+  }
+
+  &__title {
+  }
+
+  &__text {
+  }
+
+  &__form-side {
+  }
+}
+
+.contact-form {
+  &__first-name {
+  }
+
+  &__last-name {
+  }
+
+  &__phone-number {
+  }
+
+  &__select-service {
+  }
+
+  &__button {
+  }
+}
+
+//! Contact section start
